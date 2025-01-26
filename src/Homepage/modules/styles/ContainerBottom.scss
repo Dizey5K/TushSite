@@ -34,3 +34,13 @@
         font-weight: lighter;
     }
 }
+
+@media (max-width: 500px) {
+    .contBottom {
+        img {
+            display: none;
+        }
+        padding-top: 0;
+    }
+
+}

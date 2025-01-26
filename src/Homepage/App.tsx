@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <>
+    <body>
       <Navbar/>
       <ContainerFirst/>
       <ContainerSecond/>
@@ -23,7 +23,7 @@ function App() {
       <ContainerSale/>
       <ContainerContact/>
       <ContainerBottom/>
-    </>
+    </body>
   )
 }
 
