@@ -17,6 +17,7 @@ a {
     width: 100%;
 
     img {
+        margin-left: 3rem;
         width: 175px;
         height: 80px;
         position: absolute;
@@ -41,6 +42,18 @@ a {
 
         .pageActive {
             border-bottom: 3px solid $fontColor;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .navbar {
+        img {
+            height: 3rem;
+            width: auto;
+            position: relative;
+            margin: 0.5rem 0 0 3rem;
         }
     }
 }

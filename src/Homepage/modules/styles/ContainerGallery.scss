@@ -28,3 +28,26 @@
         }
     }
 }
+
+@media (max-width: 780px) {
+    .contGallery {
+        .part1 {
+            width: 100%;
+        }
+        .part2 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contGallery {
+        flex-direction: column;
+
+        .part1 {
+            img {
+                height: 30vh;
+            }
+        }
+    }
+}

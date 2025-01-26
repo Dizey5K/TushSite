@@ -75,3 +75,63 @@ a {
         }
     }
 }
+
+@media (max-width: 1100px) {
+    .contContact {
+        .contInfoContact {
+            width: 100%;
+            justify-content: space-between;
+            flex-direction: row;
+
+            .contSocial {
+                margin-top: 0;
+            }
+        }
+        .contMap {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .contContact {
+        .contInfoContact {
+            .contAdress {
+                font-size: 24px;
+                .first {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+            }
+            .contSocial {
+                font-size: 24px;
+                .poleSocial {
+                    img {
+                        width: 1.5rem;
+                    }
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contContact {
+        margin-top: 0;
+        .contInfoContact {
+            .contAdress {
+                display: none;
+            }
+
+            .contSocial {
+                font-size: 20px;
+                .poleSocial {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
