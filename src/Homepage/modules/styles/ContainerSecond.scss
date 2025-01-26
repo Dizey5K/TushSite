@@ -1,0 +1,149 @@
+@use '../../../variables' as *;
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.mainContSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0rem 3rem 0rem;
+    width: 100%;
+    color: $fontColor;
+
+    .upperCont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        max-width: 60%;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+
+        .service {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $contColor;
+            box-shadow: $contShadowSpec;
+            border-radius: 10px;
+            padding: 1rem;
+            font-size: 18px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .service:hover {
+            background-color: $contColorHover;
+        }
+
+        .service:active,
+        .moreInfo:active {
+            background-color: $contColorActive;
+        }
+
+        .service:focus,
+        .moreInfo:focus {
+            background-color: $contColorActive;
+        }
+    }
+
+    .contSecond {
+        display: flex;
+        width: 100%;
+
+        .leftCont {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            background-color: $contColor;
+            margin: 0 2rem 0rem 3rem;
+            padding: 1.5rem;
+            border-radius: 10px;
+            font-size: 30px;
+            font-weight: 500;
+            box-shadow: $contShadowSpec;
+
+            img {
+                padding-top: 1rem;
+                background-color: transparent;
+                width: 23rem;
+                border-radius: 10px;
+            }
+        }
+
+        .rightCont {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-between;
+            margin: 0 3rem 0rem 0;
+
+
+            .contInfo {
+                display: flex;
+                flex-direction: column;
+                height: 65%;
+                border-radius: 10px;
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                background-color: $contColor;
+                box-shadow: $contShadowSpec;
+                font-size: 30px;
+                font-weight: 500;
+
+                p {
+                    margin-top: 1rem;
+                    background-color: transparent;
+                    font-size: 26px;
+                    font-weight: 400;
+                }
+            }
+
+            .contSlim {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 1.5rem;
+
+                .moreInfo {
+                    display: flex;
+                    padding: 1rem;
+                    width: 100%;
+                    border-radius: 10px;
+                    background-color: $contColor;
+                    box-shadow: $contShadowSpec;
+                    align-items: center;
+                    font-size: 26px;
+                    font-weight: 500;
+                    transition: background-color 0.3s ease;
+                }
+
+                .takeService {
+                    display: flex;
+                    padding: 0.5rem 1rem;
+                    align-items: center;
+                    justify-content: center;
+                    width: 25%;
+                    border-radius: 10px;
+                    background-color: $contColorGreen;
+                    box-shadow: $contShadowSpec;
+                    font-size: 26px;
+                    font-weight: 500;
+                    transition: background-color 0.3s ease;
+                }
+
+                .takeService:hover {
+                    background-color: $contColorHoverGreen;
+                }
+                
+                .moreInfo:hover {
+                    background-color: $contColorHover;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,5 @@
+@use '../../../variables' as *;
+
 .cont {
     display: flex;
     flex-direction: column;
@@ -15,24 +17,24 @@
             width: 47%;
             height: 2.5rem;
             align-items: center;
-            background-color: #EFEFEF;
+            background-color: $contColor;
             border-radius: 20px;
             padding: 1rem 1rem;
             font-size: 38px;
             font-weight: lighter;
-            box-shadow: 0 5px 16px -5px rgba(137, 137, 137, 0.3);
+            box-shadow: $contShadow;
         }
         .rightCont {
             display: flex;
             width: 47%;
             height: 2.5rem;
             align-items: center;
-            background-color: #EFEFEF;
+            background-color: $contColor;
             border-radius: 20px;
             padding: 1rem 1rem;
             font-size: 24px;
             font-weight: lighter;
-            box-shadow: 0 5px 16px -5px rgba(137, 137, 137, 0.3);
+            box-shadow: $contShadow;
         }
     }
 
@@ -41,6 +43,6 @@
         width: 100%;
         height: 31rem;
         border-radius: 20px;
-        box-shadow: 0 5px 16px -5px rgba(137, 137, 137, 0.3);
+        box-shadow: $contShadow;
     }
 }

@@ -1,0 +1,46 @@
+@use "../../../variables" as *;
+
+.contSale {
+    display: flex;
+    background-color: $contColor;
+    margin: 0 3rem 1rem 3rem;
+    border-radius: 20px;
+    box-shadow: $contShadowSpec;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    color: $fontColor;
+
+    .textSale {
+        background-color: transparent;
+        font-size: 30px;
+        font-weight: bold;
+        align-items: center;
+
+        p {
+            background-color: transparent;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+
+    .buttonSale {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $contColorGreen;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 1rem;
+        border-radius: 20px;
+        box-shadow: $contShadow;
+    }
+
+    .buttonSale:hover {
+        background-color: $contColorHoverGreen;
+    }
+
+    .buttonSale:active {
+        background-color: $contColorActive;
+    }
+}
