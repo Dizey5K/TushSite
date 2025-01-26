@@ -205,18 +205,10 @@ button {
 
 @media (max-width: 500px) {
     .mainContSecond {
+        margin-bottom: 3rem;
         margin-top: 1rem;
         .upperCont {
-            width: 100%;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            white-space: nowrap;
-            padding: 1rem;
-
-            .service {
-                flex: 0 0 auto;
-                font-size: 14px;
-            }
+            display: none;
         }
 
         .contSecond {
@@ -224,11 +216,7 @@ button {
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
                 .contInfo {
-                    font-size: 18px;
-
-                    p {
-                        display: none;
-                    }
+                    display: none;
                 }
                 .contSlim {
                     .moreInfo {
