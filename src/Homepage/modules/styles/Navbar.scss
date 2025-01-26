@@ -1,10 +1,5 @@
 @use '../../../variables' as *;
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
     color: $fontColor;
@@ -50,10 +45,18 @@ a {
 
     .navbar {
         img {
-            height: 3rem;
             width: auto;
             position: relative;
             margin: 0.5rem 0 0 3rem;
         }
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        img {
+            margin-left: 0.5rem;
+        }
+
     }
 }

@@ -78,10 +78,12 @@
 
 @media (max-width: 500px) {
     .contSale {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
         .textSale {
             font-size: 12px;
             p {
-                display: none;
+                font-size: 10px;
             }
         }
 
