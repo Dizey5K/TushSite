@@ -1,4 +1,6 @@
 import './App.scss'
+import ContainerBottom from './modules/ContainerBottom'
+import ContainerContact from './modules/ContainerContact'
 import { ContainerFirst } from './modules/ContainerFirst'
 import ContainerGallery from './modules/ContainerGallery'
 import ContainerSale from './modules/ContainerSale'
@@ -14,6 +16,8 @@ function App() {
       <ContainerSecond/>
       <ContainerGallery/>
       <ContainerSale/>
+      <ContainerContact/>
+      <ContainerBottom/>
     </>
   )
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "/public/image1.png"
-import img2 from "/public/image2.png"
-import img3 from "/public/image3.png"
-import img4 from "/public/image4.png"
-import img5 from "/public/image5.png"
-import img6 from "/public/image6.png"
+import img1 from "/image1.png"
+import img2 from "/image2.png"
+import img3 from "/image3.png"
+import img4 from "/image4.png"
+import img5 from "/image5.png"
+import img6 from "/image6.png"
 import "./styles/ContainerGallery.scss"
 
 const ContainerGallery: React.FC = () => {

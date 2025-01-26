@@ -1,0 +1,36 @@
+@use "../../../variables" as *;
+
+.contBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+    .upperBottom {
+        display: flex;
+        background-color: transparent;
+        align-items: center;
+        width: 60%;
+        margin-bottom: 1rem;
+        gap: 5rem;
+        justify-content: center;
+        color: $fontColor;
+        font-size: 14px;
+        font-weight: bold;
+
+        .linkBottonm {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 7rem;
+            white-space: nowrap;
+        }
+    }
+
+    .lowerBottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: lighter;
+    }
+}

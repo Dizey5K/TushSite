@@ -1,0 +1,73 @@
+@use '../../../variables' as *;
+
+.contContact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 3rem 1rem 3rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: $contShadowSpec;
+    background-color: $contColor;
+
+    .contInfoContact {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        background-color: transparent;
+
+        .contAdress {
+            display: flex;
+            flex-direction: column;
+            background-color: transparent;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+
+            .first {
+                background-color: transparent;
+                margin-top: 0.5rem;
+                p {
+                    font-size: 20px;
+                    font-weight: normal;
+                    background-color: transparent;
+                }
+            }
+        }
+
+        .contSocial {
+            display: flex;
+            flex-direction: column;
+            background-color: transparent;
+            justify-content: center;
+            font-size: 30px;
+            margin-top: 1rem;
+            font-weight: bold;
+
+            .poleSocial {
+                display: flex;
+                align-items: center;
+                background-color: transparent;
+                font-size: 22px;
+                font-weight: 300;
+                margin-top: 0.8rem;
+
+                img {
+                    background-color: transparent;
+                    width: 2rem;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .contMap {
+        background-color: transparent;
+        border: none;
+
+        iframe {
+            border: none;
+            border-radius: 20px;
+        }
+    }
+}
