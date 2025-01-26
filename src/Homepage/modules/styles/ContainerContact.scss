@@ -1,5 +1,9 @@
 @use '../../../variables' as *;
 
+a {
+    background-color: transparent;
+}
+
 .contContact {
     display: flex;
     align-items: center;

@@ -22,11 +22,11 @@ const ContainerContact: React.FC = () => {
                     А как связаться?
                     <div className="poleSocial" style={{marginTop: 15}}>
                         <img src={logoInst} alt="" />
-                        vk.com/fedorovativa
+                        <a href="https://vk.com/fedorovativa">vk.com/fedorovativa</a>
                     </div>
                     <div className="poleSocial">
                         <img src={logoVk} alt="" />
-                        vk.com/fedorovativa
+                        <a href="https://vk.com/fedorovativa">vk.com/fedorovativa</a>
                     </div>
                     <div className="poleSocial">
                         <img src={logoWhat} alt="" />
