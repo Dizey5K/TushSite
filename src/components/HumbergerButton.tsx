@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './styles/HamburgerButton.scss';
+import './ComponentsStyles/HamburgerButton.scss';
 
 const HamburgerButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
