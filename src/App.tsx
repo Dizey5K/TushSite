@@ -7,24 +7,27 @@
 // import { ContainerSecond } from './pages/HomeComponents/ContainerSecond'
 import AboutUs from './pages/AboutUs'
 import './App.scss'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './pages/Home'
+import { NotFound } from './pages/NotFound'
 
+const router = createBrowserRouter([
+  {
+    path: '/home',
+    element: <Home/>,
+  },
+  {
+    path: '/about',
+    element: <AboutUs/>,
+  },
+  {
+    path: '*',
+    element: <NotFound/>,
+  }
+])
 
 function App() {
-
-  //rework app system with router for diff pages!
-
-  return (
-    <AboutUs/>
-  //   <body>
-  //   <Navbar/>
-  //   <ContainerFirst/>
-  //   <ContainerSecond/>
-  //   <ContainerGallery/>
-  //   <ContainerSale/>
-  //   <ContainerContact/>
-  //   <ContainerBottom/>
-  // </body>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App

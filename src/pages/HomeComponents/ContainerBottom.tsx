@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "/logo.png";
-import "./styles/ContainerBottom.scss"
+import "./HomeStyles/ContainerBottom.scss"
 
 const ContainerBottom: React.FC = () => {
 

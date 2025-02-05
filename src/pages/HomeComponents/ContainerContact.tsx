@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/ContainerContact.scss"
+import "./HomeStyles/ContainerContact.scss"
 import logoInst from "/logoInstagram.png"
 import logoVk from "/logoVk.png"
 import logoWhat from "/logoWhatsapp.png"

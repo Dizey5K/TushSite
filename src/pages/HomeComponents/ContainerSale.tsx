@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/ContainerSale.scss"
+import "./HomeStyles/ContainerSale.scss"
 
 const ContainerSale: React.FC = () => {
 

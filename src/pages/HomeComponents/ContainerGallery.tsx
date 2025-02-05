@@ -5,7 +5,7 @@ import img3 from "/image3.png"
 import img4 from "/image4.png"
 import img5 from "/image5.png"
 import img6 from "/image6.png"
-import "./styles/ContainerGallery.scss"
+import "./HomeStyles/ContainerGallery.scss"
 
 const ContainerGallery: React.FC = () => {
 

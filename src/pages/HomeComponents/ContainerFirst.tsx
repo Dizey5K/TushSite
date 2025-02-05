@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles/ContainerFirst.scss"
+import "./HomeStyles/ContainerFirst.scss"
 import firstImg from "/img1cont.png"
 
 export const ContainerFirst: React.FC = () => {

@@ -40,7 +40,7 @@ const HamburgerButton: React.FC = () => {
         <div className="navbarMenu">
             <a href="#">Услуги</a>
             <a href="#">Галерея</a>
-            <a href="#">О нас</a>
+            <a href="/about">О нас</a>
             <a href="#">Контакты</a>
         </div>
   )}

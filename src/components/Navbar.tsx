@@ -4,13 +4,13 @@ import useWindowWidth from "../hooks/WindowWidth";
 import HamburgerButton from "./HumbergerButton";
 
 interface ActivePage {
-    pageIndex: number;
+    pageIndex: number | null;
 }
 
 const pageItems = [
     {name: "Услуги", link: "#"},
     {name: "Галерея", link: "#"},
-    {name: "О нас", link: "#"},
+    {name: "О нас", link: "/about"},
     {name: "Контакты", link: "#"}
 ]   
 
@@ -21,7 +21,7 @@ export const Navbar: React.FC<ActivePage> = ({pageIndex}) => {
 
     return (
         <div className="navbar">
-            <a href="#" className="logo">
+            <a href="/home" className="logo">
                 <img src={logo} alt="logo" className="logo" />
             </a>
             {hideNavbar && 
@@ -36,7 +36,6 @@ export const Navbar: React.FC<ActivePage> = ({pageIndex}) => {
             </div>}
             {!hideNavbar && 
             <HamburgerButton/>
-            
             }
         </div>
     )

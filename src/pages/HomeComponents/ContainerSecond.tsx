@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/ContainerSecond.scss"
+import "./HomeStyles/ContainerSecond.scss"
 import ButtonList from "./ButtonLIst";
 
 export const ContainerSecond: React.FC = () => {
