@@ -21,7 +21,7 @@ export const Navbar: React.FC<ActivePage> = ({pageIndex}) => {
 
     return (
         <div className="navbar">
-            <a href="/home" className="logo">
+            <a href="/" className="logo">
                 <img src={logo} alt="logo" className="logo" />
             </a>
             {hideNavbar && 
