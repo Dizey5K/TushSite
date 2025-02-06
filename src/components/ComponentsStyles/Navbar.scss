@@ -44,6 +44,7 @@ a {
 
 @media (max-width: 900px) {
   .navbar {
+    margin-bottom: 2rem;
     img {
       width: auto;
       position: relative;
@@ -54,6 +55,7 @@ a {
 
 @media (max-width: 500px) {
   .navbar {
+    margin-bottom: 1rem;
     img {
       margin-left: 0.5rem;
     }
